@@ -12,9 +12,6 @@
 int main(void)
 {
 	int n;
- 	n = 98;
-	n = -98;
-	n = 0;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -22,10 +19,10 @@ int main(void)
 	printf("%d\n", n);
 	/* your code goes there */
 if (n > 0)
-printf("%d is positive\n", 'n');
+printf("98 is positive\n");
 else if (n < 0)
-printf("%d is negative\n", 'n');
+printf("-98 is negative\n");
 else
-printf("%d is zero\n", 'n');
+printf("0 is zero\n");
 	return (0);
 }
