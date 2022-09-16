@@ -4,7 +4,7 @@
 * main - causes an infinite loop
 * Return: 0
 */
-
+/* causes an infinite loop */
 int main(void)
 {
 int i;
@@ -14,7 +14,6 @@ i = 0;
 
 while (i < 10)
 {
-/* causes infinite loop */
 putchar(i);
 }
 printf("Infinite loop avoided! \\o/\n");
