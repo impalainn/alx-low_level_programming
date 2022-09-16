@@ -4,12 +4,13 @@
 * main - causes an infinite loop
 * Return: 0
 */
-/* causes an infinite loop */
+
 int main(void)
 {
 int i;
 
 printf("Infinite loop incoming :(\n");
+/* causes infinite loop */
 i = 0;
 
 while (i < 10)
