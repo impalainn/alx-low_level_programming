@@ -8,9 +8,6 @@ int main(void)
 {
 	char alphabet = 'a';
 
-        alphabet != 'e';
-	alphabet != 'q';
-
 		while (alphabet <= 'z')
 		{
 			putchar(alphabet);
