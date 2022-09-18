@@ -8,18 +8,17 @@ int main(void)
 {
 int x;
 
+char alphabet = 'a';
+
 for (x = 0; x < 10; x++)
 {
 putchar(x + '0');
 }
 if (x > 9)
+	while (alphabet <= 'f')
 {
-	putchar('a');
-	putchar('b');
-	putchar('c');
-	putchar('d');
-	putchar('e');
-	putchar('f');
+	putchar(alphabet);
+	alphabet++;
 }
 putchar('\n');
 return (0);
