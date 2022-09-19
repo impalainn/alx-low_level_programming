@@ -1,11 +1,10 @@
 #include<stdio.h>
 #include "main.h"
-void reset_to_98(int *n)
 /**
  * main - updates value
  * Return: 0
  */
-int main(void)
+int main(void);
 {
 	int n;
 
@@ -14,4 +13,3 @@ int main(void)
 	printf("n=%d\n", n);
 	return (0);
 }
-
