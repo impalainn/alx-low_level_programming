@@ -1,16 +1,18 @@
 #include<stdio.h>
+void reset_to_98(int x)
+{
+	x = 98;
+}
 /**
  * main - updates value
  * Return: 0
  */
 int main(void)
 {
-	int p = 8;
+	int n;
 
-	int *n;
-
-	n = &p;
-	*n = 98;
+	n = 402;
+	reset_to_98(n);
 	return (0);
 }
 
