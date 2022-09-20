@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  * Description: 'prints arg'
@@ -6,11 +7,8 @@
  */
 int main(void)
 {
-	char alphabet = 'a';
+	char n;
 
-
-	while ('a' <= 'z')
-	putchar(alphabet);
-	alphabet++;
+	print_alphabet();
 	return (0);
 	}

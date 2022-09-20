@@ -1,11 +1,15 @@
-#include<stdio.h>
-/**
- * main - Entry point
- * Description: 'prints arg'
- * Return: Always 0 (success)
- */
-int main(void)
+#ifndef MAIN_H_
+#define MAIN_H_
+void print_alphabet(void)
 {
-	puts("_putchar\n");
-	return (0);
+	char alphabet = 'a';
+
+	while (alphabet <= 'z')
+	{
+		putchar(alphabet);
+		alphabet++;
+	}
 }
+
+
+#endif
