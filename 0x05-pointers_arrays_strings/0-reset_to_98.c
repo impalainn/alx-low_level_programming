@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include "main.h"
 /**
  * main - updates value
@@ -9,6 +8,5 @@ int main(void)
         int n;
 
         reset_to_98(&n);
-        printf("n=%d\n", n);
         return (0);
 }
