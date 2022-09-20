@@ -7,8 +7,6 @@
  */
 int main(void)
 {
-	char n;
-
 	print_alphabet();
 	return (0);
 	}
