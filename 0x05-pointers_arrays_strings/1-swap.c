@@ -17,6 +17,8 @@ void swap_int(int *a, int *b)
 
 	x = 98;
 	y = 42;
+	a = &x;
+	b = &y;
 	printf("%d, %d\n", x, y);
 	swap_int(&x, &y);
 	{
