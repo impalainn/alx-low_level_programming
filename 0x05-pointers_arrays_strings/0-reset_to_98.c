@@ -9,6 +9,7 @@ void reset_to_98(int *n)
 {
 	*n = 98;
 }
+{
 	int x;
 
 	int *p;
@@ -18,4 +19,5 @@ void reset_to_98(int *n)
 	printf("%d\n", x );
 	reset_to_98(p);
 	printf("%d\n", x);
+}
 }
