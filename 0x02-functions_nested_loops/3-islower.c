@@ -7,7 +7,7 @@ int _islower(int c)
 	int c;
 
 	c = _islower('c');
-	putchar(1);
+	_putchar(1);
 	c = _islower('C');
-	putchar(0);
+	_putchar(0);
 }
