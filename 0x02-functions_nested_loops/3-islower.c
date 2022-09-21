@@ -4,10 +4,10 @@
  */
 int _islower(int c)
 {
-	int c;
+	int x;
 
-	c = _islower('c');
-	_putchar(1);
-	c = _islower('C');
-	_putchar(0);
+	x = _islower('x');
+	return (1);
+	x = _islower('X');
+	return (0);
 }
