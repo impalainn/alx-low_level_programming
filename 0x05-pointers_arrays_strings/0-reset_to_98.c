@@ -9,24 +9,20 @@ void reset_to_98(int *n)
 {
 	*n = 98;
 }
-	int x;
+	int n;
 
-	int y;
+	n = 402;
+	printf("%d\n", n);
+	reset_to_98(&n);
+	printf("%d\n", n);
 
-	int z;
+	n = -4096;
+	printf("%d\n", n);
+	reset_to_98(&n);
+	printf("%d\n", n);
 
-	x = 402;
-	printf("%d\n", x);
-	reset_to_98(&x);
-	printf("%d\n", x);
-
-	y = -4096;
-	printf("%d\n", y);
-	reset_to_98(&y);
-	printf("%d\n", y);
-
-	z = INT_MAX;
-	printf("%d\n", z);
-	reset_to_98(&z);
-	printf("%d\n", z);
+	n = INT_MAX;
+	printf("%d\n", n);
+	reset_to_98(&n);
+	printf("%d\n", n);
 }
