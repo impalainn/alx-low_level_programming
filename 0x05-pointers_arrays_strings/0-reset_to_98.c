@@ -11,18 +11,11 @@ void reset_to_98(int *n)
 }
 	int x;
 
+	int *p;
+
+	p = &x;
 	x = 402;
 	printf("%d\n", x );
-	reset_to_98(&x);
-	printf("%d\n", x);
-
-	x = -4096;
-	printf("%d\n", x);
-	reset_to_98(&x);
-	printf("%d\n", x);
-
-	x = INT_MAX;
-	printf("%d\n", x);
-	reset_to_98(&x);
+	reset_to_98(p);
 	printf("%d\n", x);
 }
