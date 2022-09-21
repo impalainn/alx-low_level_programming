@@ -10,6 +10,7 @@ void swap_int(int *a, int *b)
 	*a = 42;
 	*b = 98;
 	}
+	{
 
 	int x;
 
@@ -20,4 +21,5 @@ void swap_int(int *a, int *b)
 	printf("%d, %d\n", x, y);
 	swap_int(&x, &y);
 	printf("%d, %d\n", x, y);
+	}
 }
