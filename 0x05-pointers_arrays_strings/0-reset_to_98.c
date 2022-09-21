@@ -6,15 +6,9 @@
  */
 void reset_to_98(int *n)
 {
+{
 	*n = 98;
 }
-/**
- * main - entry point
- * Description: 'prints arg'
- * Return: 0
- */
-int main(void)
-{
 	int x;
 
 	int y;
@@ -22,16 +16,17 @@ int main(void)
 	int z;
 
 	x = 402;
-	y = -4096;
-	z = INT_MAX;
 	printf("%d\n", x);
 	reset_to_98(&x);
 	printf("%d\n", x);
+
+	y = -4096;
 	printf("%d\n", y);
 	reset_to_98(&y);
 	printf("%d\n", y);
+
+	z = INT_MAX;
 	printf("%d\n", z);
 	reset_to_98(&z);
 	printf("%d\n", z);
-	return (0);
 }
