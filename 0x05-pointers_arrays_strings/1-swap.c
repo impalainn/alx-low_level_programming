@@ -6,24 +6,8 @@
  */
 void swap_int(int *a, int *b)
 {
-	{
-	*a = 42, *b = 98;
-	}
-	{
+	int swp = *a;
 
-	int x;
-
-	int y;
-
-	x = 98;
-	y = 42;
-	a = &x;
-	b = &y;
-	printf("%d, %d\n", x, y);
-
-	swap_int(&x, &y);
-	{
-	printf("%d, %d\n", x, y);
-	}
-	}
+	*a = *b;
+	*b = swp;
 }
