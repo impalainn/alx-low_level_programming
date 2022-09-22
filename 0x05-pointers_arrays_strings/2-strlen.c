@@ -1,18 +1,15 @@
 #include "main.h"
 /**
  * _strlen - returns strlen
- * return: 0
+ * @s: pointer to string
+ * Return: string
  */
 int _strlen(char *s)
 {
-{
-	char *s = strlen;
-}
-{
-	int len;
+	int len = 0;
 
-	char str[] = "my first strlen";
-	len = _strlen(str);
-	printf("%d", len);
-}
+	while (*(s + len) != '\0')
+		len++;
+
+	return (len);
 }
