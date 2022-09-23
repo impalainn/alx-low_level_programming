@@ -2,6 +2,7 @@
 /**
  * print_diagonal - prints diagonal using char '\
  * @n: length of line
+ * @n:length
  */
 void print_diagonal(int n)
 {
