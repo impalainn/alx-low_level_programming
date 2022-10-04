@@ -2,7 +2,7 @@
 /**
  * main - prints program name
  * @argc: number of arguments
- * @argv[]: array of strings
+ * @argv: array of strings
  * Return: 0
  */
 int main(int argc, char *argv[])
