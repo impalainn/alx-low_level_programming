@@ -1,11 +1,4 @@
-#include<stdio.h>
-/**
- * main - Entry point
- * Description: 'prints arg'
- * Return: Always 0 (success)
- */
-int main(void)
+#include "main.h"
+int _putchar(char c)
 {
-	puts("_putchar");
-	return (0);
 }
