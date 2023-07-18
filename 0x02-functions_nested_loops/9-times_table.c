@@ -16,12 +16,12 @@ void times_table(void)
 			printf("%d", product);
 			if((i < 9 || j < 9) && j != 9)
 			{
-				if(product<10)
+				printf(",");
+				printf(" ");
+				if( i * (j+1) <10)
 				{
 					printf(" ");
 				}
-				printf(",");
-                                printf(" ");
 			}
 		}
 		printf("\n");
