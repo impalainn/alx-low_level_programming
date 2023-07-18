@@ -17,9 +17,9 @@ int main(void)
 	int count;
 
 	i = 1;
-	j = 1;
+	j = 2;
 	printf("%d, ", 1);
-	printf("%d, ", 1);
+	printf("%d, ", 2);
 	count = 0;
 	while(count <= 47)
 	{
