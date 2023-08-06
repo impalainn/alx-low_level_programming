@@ -14,6 +14,8 @@ int main(void)
 	 * {
 	 * 	putchar(i);
 	 * }
+	 *
+	 * Description: Commenting out the infinite loop.
 	 */
 	printf("Infinite loop avoided! \\o/\n");
 	return (0);
