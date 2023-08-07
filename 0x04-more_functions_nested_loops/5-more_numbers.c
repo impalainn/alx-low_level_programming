@@ -11,9 +11,10 @@ void more_numbers(void)
 		a = 0;
 		while (a < 15)
 		{
+			_putchar('0' + a/10 + a * (1 - a/10));
+
 			if (a > 9)
 			{
-				_putchar('0' + a / 10);
 				_putchar('0' + a % 10);
 			}
 			a++;
