@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  * leet - converts string to leet
  * @c: char string pointer
@@ -14,7 +14,7 @@ char *leet(char *c)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if(*(c + i) == letters[j] || *(c + i) - 32 == letters[j])
+			if (*(c + i) == letters[j] || *(c + i) - 32 == letters[j])
 			{
 				*(c + i) = numbers[j];
 			}
